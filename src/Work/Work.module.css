@@ -1,0 +1,22 @@
+.worksBody {
+    height: 100vh;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid white;
+}
+
+.works {
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 340px;
+    height: 210px;
+}

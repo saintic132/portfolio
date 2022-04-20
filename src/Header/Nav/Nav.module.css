@@ -1,0 +1,13 @@
+.nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav > a {
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
