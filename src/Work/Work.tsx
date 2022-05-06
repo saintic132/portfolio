@@ -5,7 +5,6 @@ import img1 from '../common/img/project-1.jpg'
 import img2 from '../common/img/project-2.jpg'
 import img3 from '../common/img/project-3.jpg'
 import img4 from '../common/img/project-4.jpg'
-import img5 from '../common/img/project-5.jpg'
 import Project from "./Projects/Project";
 
 
@@ -16,7 +15,6 @@ function Work() {
         {id: 2, name: 'Project name', description: 'desp 2', img: img2},
         {id: 3, name: 'Project name', description: 'desp 3', img: img3},
         {id: 4, name: 'Project name', description: 'desp 4', img: img4},
-        {id: 5, name: 'Project name', description: 'desp 5', img: img5},
     ]
 
     return (

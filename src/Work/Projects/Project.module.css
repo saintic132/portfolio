@@ -5,9 +5,3 @@
     flex: 0 1 30%;
     background-color: red;
 }
-
-@media (max-width: 767px) {
-    .projects {
-
-    }
-}

@@ -16,9 +16,19 @@
     justify-content: space-between;
 }
 
+.works > div {
+    margin: 10px;
+}
+
 img {
     max-width: 340px;
     max-height: 210px;
+}
+
+@media (max-width: 1542px) {
+    .works {
+        justify-content: space-evenly;
+    }
 }
 
 @media (max-width: 971px) {
@@ -26,6 +36,7 @@ img {
         flex-direction: row;
         justify-content: center;
     }
+
     .works {
         justify-content: center;
     }

@@ -17,7 +17,7 @@
 .contact__aboutMe {
     display: flex;
     flex-direction: column;
-    flex: 0 0 30%;
+    flex: 0 0 33.33%;
     margin-right: 20px;
 }
 
@@ -96,7 +96,7 @@ input[type=text]:focus, input[type=text]:focus, textarea:focus {
     border: 1px solid #ffb400;
 }
 
-@media (max-width: 977px) {
+@media (max-width: 998px) {
     input[type=text], input[type=text], textarea {
         width: 100%;
     }
@@ -114,7 +114,6 @@ input[type=text]:focus, input[type=text]:focus, textarea:focus {
 
     .contactForm {
         width: 100%;
-        flex: 1 0 100%;
     }
 
     .contact__aboutMe {
