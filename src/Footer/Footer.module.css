@@ -1,4 +1,4 @@
-.skillsBody {
+.footerBody {
     min-height: 100vh;
 }
 
@@ -8,11 +8,6 @@
     border: 1px solid white;
 }
 
-.skills {
-    width: 100%;
+.footer {
     border: 1px solid white;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
-

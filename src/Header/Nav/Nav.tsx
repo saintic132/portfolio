@@ -4,16 +4,16 @@ import style from './Nav.module.css'
 function Nav() {
     return (
         <div className={style.nav}>
-            <a href="">
+            <a href="#">
                 Home
             </a>
-            <a href="">
+            <a href="#">
                 Skills
             </a>
-            <a href="">
+            <a href="#">
                 Jobs
             </a>
-            <a href="">
+            <a href="#">
                 Contacts
             </a>
         </div>
