@@ -9,7 +9,6 @@
 }
 
 .works {
-    width: 100%;
     border: 1px solid white;
     display: flex;
     flex-wrap: wrap;
@@ -18,11 +17,6 @@
 
 .works > div {
     margin: 10px;
-}
-
-img {
-    max-width: 340px;
-    max-height: 210px;
 }
 
 @media (max-width: 1542px) {

@@ -8,7 +8,6 @@ import mailLink from '../assets/img/mail.png'
 import call from '../assets/img/call.png'
 
 
-
 function Contacts() {
 
     return (
@@ -17,8 +16,8 @@ function Contacts() {
                 <h2>Contacts</h2>
                 <div className={style.contacts}>
                     <div className={style.contact__aboutMe}>
-                        <h2 style={{textTransform:'uppercase'}}>Don't be shy</h2>
-                        <p style={{textAlign:'justify'}}>Feel free to get in touch with me. I am always open to
+                        <h2 style={{textTransform: 'uppercase'}}>Don't be shy</h2>
+                        <p style={{textAlign: 'justify'}}>Feel free to get in touch with me. I am always open to
                             discussing new projects, creative ideas or opportunities to be part of your visions.</p>
                         <p className={style.logos}>
                             <a
@@ -30,7 +29,7 @@ function Contacts() {
                                 <img src={mailLink} alt="mailLogo"/>
                             </a>
                             <div>
-                                <span style={{textTransform:'uppercase'}}>mail me</span>
+                                <span style={{textTransform: 'uppercase'}}>mail me</span>
                                 <span>steve@mail.com</span>
                             </div>
                         </p>
@@ -44,7 +43,7 @@ function Contacts() {
                                 <img src={call} alt="callLogo"/>
                             </a>
                             <div>
-                                <span style={{textTransform:'uppercase'}}>call</span>
+                                <span style={{textTransform: 'uppercase'}}>call</span>
                                 <span>Number here</span>
                             </div>
                         </p>

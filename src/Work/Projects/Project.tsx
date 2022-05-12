@@ -20,7 +20,7 @@ function Project(props: ProjectPropsType) {
                     return (
                         <div className={style.projects}>
                             <img src={proj.img} alt="img"/>
-                            <h3>Name of project</h3>
+                            <h3 className={style.nameProject}>Name of project</h3>
                             <span>description</span>
                         </div>
                     )

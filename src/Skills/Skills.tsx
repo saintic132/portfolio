@@ -17,7 +17,9 @@ function Skills() {
             id: 3, title: 'React', description: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt'
         },
         {
-            id: 4, title: 'Bla bla', description: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit'
+            id: 4,
+            title: 'Bla bla',
+            description: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit'
         },
     ]
 
