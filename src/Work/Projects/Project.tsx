@@ -14,19 +14,23 @@ type ProjectPropsType = {
 function Project(props: ProjectPropsType) {
 
     return (
-        <>
+        <div className={style.project__container}>
             {
                 props.projects.map(proj => {
                     return (
-                        <div className={style.projects}>
-                            <img src={proj.img} alt="img"/>
-                            <h3 className={style.nameProject}>Name of project</h3>
-                            <span>description</span>
+                        <div
+                            key={proj.id}
+                            className={style.projects}>
+                            <img
+                                src={proj.img}
+                                alt="img"/>
+                            <h3 className={style.nameProject}>{proj.name}</h3>
+                            <span>{proj.description}</span>
                         </div>
                     )
                 })
             }
-        </>
+        </div>
     );
 }
 

@@ -4,17 +4,26 @@ import styledContainer from '../common/css/Container.module.css'
 import img1 from '../common/img/project-1.jpg'
 import img2 from '../common/img/project-2.jpg'
 import img3 from '../common/img/project-3.jpg'
-import img4 from '../common/img/project-4.jpg'
 import Project from "./Projects/Project";
 
 
 function Work() {
 
     let projects = [
-        {id: 1, name: 'Project name', description: 'desp 1', img: img1},
-        {id: 2, name: 'Project name', description: 'desp 2', img: img2},
-        {id: 3, name: 'Project name', description: 'desp 3', img: img3},
-        {id: 4, name: 'Project name', description: 'desp 4', img: img4},
+        {
+            id: 1,
+            name: 'Todolist',
+            description: 'Stack: TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui, Formik, Storybook; Bug fixing, deployin; Covering code with unit tests.',
+            img: img1
+        },
+        {id: 2, name: 'Social-network', description: 'Stack: TypeScript, React, Redux,  Redux-Thunk, React-Router-dom, Axios, Formik; Bug fixing, deployin.', img: img2},
+        {
+            id: 3,
+            name: 'Cards',
+            description: 'Stack: TypeScript, React, Redux, Redux-Thunk, React-Router-dom, Axios, Formik, Yup.\n' +
+                'Team developement; Bug fixing, deployin.',
+            img: img3
+        },
     ]
 
     return (

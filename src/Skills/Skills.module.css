@@ -1,18 +1,27 @@
-.skillsBody {
-    min-height: 100vh;
-}
+/*.skillsBody {*/
+/*    min-height: 100vh;*/
+/*}*/
 
 .container {
     flex-direction: column;
     justify-content: flex-start;
     border: 1px solid white;
+    min-height: 100%;
 }
 
 .skills {
+    margin: 100px 0;
     width: 100%;
-    border: 1px solid white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    gap: 50px;
 }
 
+
+@media (max-width: 874px) {
+    .skills {
+        width: 100%;
+        display: flex;
+    }
+}

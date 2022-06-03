@@ -9,7 +9,7 @@ import {Footer} from "./Footer/Footer";
 
 function Portfolio() {
     return (
-        <div>
+        <>
             <Header/>
             <Main/>
             <Skills/>
@@ -17,7 +17,7 @@ function Portfolio() {
             <Contacts />
             {/*Футер в случае необходимости*/}
             {/*<Footer />*/}
-        </div>
+        </>
     );
 }
 

@@ -5,6 +5,7 @@ type SkillType = {
     id: number
     title: string
     description: string
+    img: string
 }
 
 
@@ -18,12 +19,14 @@ function Skill(props: SkillPropsType) {
             {
                 props.skill.map(skill => {
                     return (
-                        <div className={style.skill}>
-                            <div
-                                key={skill.id}
+                        <div
+                            key={skill.id}
+                            className={style.skill}>
+                            <img
                                 className={style.icon}
-                            >.</div>
-                            <h3>{skill.title}</h3>
+                                src={skill.img}
+                                alt=""/>
+                            <h2>{skill.title}</h2>
                             <span>{skill.description}</span>
                         </div>
                     )

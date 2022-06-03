@@ -16,7 +16,7 @@ function Contacts() {
                 <h2>Contacts</h2>
                 <div className={style.contacts}>
                     <div className={style.contact__aboutMe}>
-                        <h2 style={{textTransform: 'uppercase'}}>Don't be shy</h2>
+                        <h2 style={{textTransform: 'uppercase', textAlign:'center'}}>Don't be shy</h2>
                         <p style={{textAlign: 'justify'}}>Feel free to get in touch with me. I am always open to
                             discussing new projects, creative ideas or opportunities to be part of your visions.</p>
                         <p className={style.logos}>

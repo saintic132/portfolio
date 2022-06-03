@@ -1,14 +1,32 @@
 .skill {
-    border: 1px solid white;
     flex: 0 1 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px 0;
+}
+
+.skill:nth-child(n+3) {
+    margin-top: 100px;
+}
+
+.skill > span {
+    text-align: justify;
 }
 
 .icon {
     width: 50px;
     height: 50px;
-    background-color: white;
+}
+
+@media (max-width: 874px) {
+    .skill {
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        flex: 1 1 auto;
+        margin: 40px 0;
+    }
+    .skill:nth-child(n+3) {
+        margin-top: 0;
+    }
 }
