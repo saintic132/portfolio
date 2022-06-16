@@ -1,9 +1,9 @@
 import React from 'react';
 import style from './Work.module.css'
 import styledContainer from '../common/css/Container.module.css'
-import img1 from '../common/img/project-1.jpg'
-import img2 from '../common/img/project-2.jpg'
-import img3 from '../common/img/project-3.jpg'
+import img1 from '../assets/img/project/project-1.png'
+import img2 from '../assets/img/project/project-2.jpg'
+import img3 from '../assets/img/project/project-3.jpg'
 import Project from "./Projects/Project";
 
 
@@ -13,23 +13,36 @@ function Work() {
         {
             id: 1,
             name: 'Todolist',
-            description: 'Stack: TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui, Formik, Storybook; Bug fixing, deployin; Covering code with unit tests.',
-            img: img1
+            description: 'React, Redux, TypeScript, Redux Toolkit, Redux-Thunk, React-router-dom, Axios, Mui, Formik, Storybook, Bug fixing, Covering code with unit tests',
+            img: img1,
+            link: 'https://github.com/saintic132/TodoList',
+            client: 'Education project'
         },
-        {id: 2, name: 'Social-network', description: 'Stack: TypeScript, React, Redux,  Redux-Thunk, React-Router-dom, Axios, Formik; Bug fixing, deployin.', img: img2},
+        {
+            id: 2,
+            name: 'Social-network',
+            description: 'React, Redux, TypeScript, Redux-Thunk, React-router-dom, Axios, Formik, Bug fixing, deploying',
+            img: img2,
+            link: 'https://github.com/saintic132/social-network',
+            client: 'Self education'
+        },
         {
             id: 3,
             name: 'Cards',
-            description: 'Stack: TypeScript, React, Redux, Redux-Thunk, React-Router-dom, Axios, Formik, Yup.\n' +
-                'Team developement; Bug fixing, deployin.',
-            img: img3
+            description: 'React, Redux, TypeScript, Redux-Thunk, React-router-dom, Axios, Formik, Yup, Team development, Bug fixing, deploying',
+            img: img3,
+            link: 'https://github.com/saintic132/Cards',
+            client: 'Start-up Company'
         },
     ]
 
     return (
-        <div className={style.worksBody}>
+        <div
+            id='works'
+            className={style.worksBody}>
             <div className={`${styledContainer.container} ${style.container}`}>
                 <h2 className={style.title}>Works</h2>
+                <div className={styledContainer.line}/>
                 <div className={style.works}>
                     <Project projects={projects}/>
                 </div>

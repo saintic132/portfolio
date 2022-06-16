@@ -1,0 +1,41 @@
+.windowModal__container {
+    color: white;
+    max-width: 550px;
+    width: 100%;
+}
+
+.windowModal__container h3{
+    color: #ffb400;
+    text-transform: uppercase;
+    padding: 10px 0 20px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 33px;
+}
+
+.windowModal__body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.windowModal__info img {
+    padding: 0 5px;
+    color: white;
+}
+
+.img {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
+    max-height: 300px;
+}
+
+.windowModal__info > a {
+    padding-left: 10px;
+    color: #ffb400;
+    text-decoration: underline;
+}

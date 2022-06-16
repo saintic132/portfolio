@@ -1,5 +1,4 @@
 .container {
-    border: 1px solid white;
     min-height: 100vh;
     width: 70%;
     margin: 0 auto;
@@ -7,4 +6,10 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.line {
+    width: 55px;
+    height: 1px;
+    background-color: white;
 }

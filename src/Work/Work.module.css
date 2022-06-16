@@ -5,17 +5,12 @@
 .container {
     flex-direction: column;
     justify-content: flex-start;
-    border: 1px solid white;
 }
 
 .works {
-    border: 1px solid white;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-}
-
-.works > div {
-    margin: 10px;
 }
 
 @media (max-width: 1545px) {

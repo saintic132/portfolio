@@ -23,6 +23,11 @@
     padding: 35px 0;
 }
 
+.active {
+    width: 100%;
+    text-align: center;
+}
+
 @media (max-width: 874px) {
     .nav {
         all: unset;

@@ -1,27 +1,28 @@
 import React from 'react';
 import style from './Contacts.module.css'
 import styledContainer from "../common/css/Container.module.css";
-import vkLogo from '../assets/img/vk.png'
-import githubLogo from '../assets/img/gh.png'
-import linkedIn from '../assets/img/linked.png'
-import mailLink from '../assets/img/mail.png'
-import call from '../assets/img/call.png'
-
+import vkLogo from '../assets/img/social/vk.png'
+import githubLogo from '../assets/img/social/gh.png'
+import linkedIn from '../assets/img/social/linked.png'
+import mailLink from '../assets/img/social/mail.png'
 
 function Contacts() {
 
     return (
-        <div className={style.contactBody}>
+        <div
+            id='contacts'
+            className={style.contactBody}>
             <div className={`${styledContainer.container} ${style.container}`}>
                 <h2>Contacts</h2>
+                <div className={styledContainer.line}/>
                 <div className={style.contacts}>
                     <div className={style.contact__aboutMe}>
-                        <h2 style={{textTransform: 'uppercase', textAlign:'center'}}>Don't be shy</h2>
+                        <h2 style={{textTransform: 'uppercase', textAlign: 'center'}}>Don't be shy</h2>
                         <p style={{textAlign: 'justify'}}>Feel free to get in touch with me. I am always open to
                             discussing new projects, creative ideas or opportunities to be part of your visions.</p>
                         <p className={style.logos}>
                             <a
-                                href='#'
+                                href='mailto:saintic132@gmail.com'
                                 target='_blank'
                                 rel="noreferrer"
                                 title='Mail'
@@ -30,26 +31,13 @@ function Contacts() {
                             </a>
                             <div>
                                 <span style={{textTransform: 'uppercase'}}>mail me</span>
-                                <span>steve@mail.com</span>
-                            </div>
-                        </p>
-                        <p className={style.logos}>
-                            <a
-                                href='#'
-                                target='_blank'
-                                rel="noreferrer"
-                                title='Call'
-                            >
-                                <img src={call} alt="callLogo"/>
-                            </a>
-                            <div>
-                                <span style={{textTransform: 'uppercase'}}>call</span>
-                                <span>Number here</span>
+                                <a className={style.contact__mail}
+                                   href="mailto:saintic132@gmail.com">saintic132@gmail.com</a>
                             </div>
                         </p>
                         <p className={style.linkLogo}>
                             <a
-                                href='#'
+                                href='https://www.linkedin.com/in/ivan-akhremchyk-9a4585222/'
                                 target='_blank'
                                 rel="noreferrer"
                                 title='LinkedIn'
@@ -57,7 +45,7 @@ function Contacts() {
                                 <img src={linkedIn} alt="linkedIn"/>
                             </a>
                             <a
-                                href='#'
+                                href='https://github.com/saintic132'
                                 target='_blank'
                                 rel="noreferrer"
                                 title='GitHub'
@@ -65,7 +53,7 @@ function Contacts() {
                                 <img src={githubLogo} alt="githubLogo"/>
                             </a>
                             <a
-                                href='#'
+                                href='https://vk.com/saintic'
                                 target='_blank'
                                 rel="noreferrer"
                                 title='VK'

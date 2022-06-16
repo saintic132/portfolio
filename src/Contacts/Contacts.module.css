@@ -5,12 +5,10 @@
 .container {
     flex-direction: column;
     justify-content: flex-start;
-    border: 1px solid white;
 }
 
 .contacts {
     width: 100%;
-    border: 1px solid white;
     display: flex;
 }
 
@@ -77,6 +75,14 @@ textarea {
 .textarea {
     margin: 0;
     flex: 0 0 100%;
+}
+
+.contact__mail {
+    color: #ffb400;
+}
+
+.contact__mail:visited {
+    color: #ffb400;
 }
 
 button[type=submit] {

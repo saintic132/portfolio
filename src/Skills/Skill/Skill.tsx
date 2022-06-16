@@ -26,7 +26,7 @@ function Skill(props: SkillPropsType) {
                                 className={style.icon}
                                 src={skill.img}
                                 alt=""/>
-                            <h2>{skill.title}</h2>
+                            <h3>{skill.title}</h3>
                             <span>{skill.description}</span>
                         </div>
                     )
