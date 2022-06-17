@@ -19,6 +19,12 @@
     margin-right: 20px;
 }
 
+.contact__aboutMe > p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
 .contactForm {
     flex: 0 1 66.66%;
 }

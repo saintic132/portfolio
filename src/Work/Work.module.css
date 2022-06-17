@@ -21,7 +21,6 @@
 
 @media (max-width: 971px) {
     .container {
-        flex-direction: row;
         justify-content: center;
     }
 }

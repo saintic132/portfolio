@@ -19,7 +19,7 @@ function Contacts() {
                     <div className={style.contact__aboutMe}>
                         <h2 style={{textTransform: 'uppercase', textAlign: 'center'}}>Don't be shy</h2>
                         <p style={{textAlign: 'justify'}}>Feel free to get in touch with me. I am always open to
-                            discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                            discussing new projects, creative ideas or opportunities to be part of your visions. Open for your suggestions</p>
                         <p className={style.logos}>
                             <a
                                 href='mailto:saintic132@gmail.com'

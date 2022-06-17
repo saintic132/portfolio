@@ -1,7 +1,15 @@
 .windowModal__container {
+    position: relative;
     color: white;
     max-width: 550px;
     width: 100%;
+}
+
+.closeModal {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
 }
 
 .windowModal__container h3{
@@ -22,6 +30,13 @@
 .windowModal__info img {
     padding: 0 5px;
     color: white;
+}
+
+.windowModal__info {
+    padding: 0 5px;
+    color: white;
+    line-height: 20px;
+    font-weight: 520;
 }
 
 .img {

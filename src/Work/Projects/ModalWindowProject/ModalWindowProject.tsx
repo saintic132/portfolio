@@ -3,6 +3,8 @@ import style from './ModalWindowProject.module.css'
 import languageImg from '../../../assets/img/modal_window/tag.png'
 import clientImg from '../../../assets/img/modal_window/user.png'
 import linkImg from '../../../assets/img/modal_window/link.png'
+import close from '../../../assets/img/project/close.png'
+
 
 type ModalWindowProjectPropsType = {
     projectName: string
@@ -10,12 +12,17 @@ type ModalWindowProjectPropsType = {
     lang: string
     link: string
     img: string
+    setActive: (active: boolean) => void
 }
 
-export const ModalWindowProject = ({projectName, clientName, lang, link, img}: ModalWindowProjectPropsType) => {
+export const ModalWindowProject = ({projectName, clientName, lang, link, img, setActive}: ModalWindowProjectPropsType) => {
     return (
         <div className={style.windowModal__container}>
             <h3>{projectName}</h3>
+            <img
+                className={style.closeModal}
+                onClick={() => setActive(false)}
+                src={close} alt="close"/>
             <div className={style.windowModal__body}>
                 <div className={style.windowModal__info}>
                     <img src={clientImg} alt="projectimg"/>
@@ -29,6 +36,8 @@ export const ModalWindowProject = ({projectName, clientName, lang, link, img}: M
                     <img src={linkImg} alt="projectimg"/>
                     Preview:
                     <a
+                        target='_blank'
+                        rel="noreferrer"
                         href={link}>
                         GitHub
                     </a>

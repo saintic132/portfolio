@@ -16,11 +16,16 @@ function Main() {
                         alt="background"/>
                 </div>
                 <div className={style.textBlock}>
-                    <h1>Hello everyone, my name is Ivan Akhremchyk</h1>
-                    <p>I'm a front-end developer with experience building SPAs with ReactJS / Redux / TypeScript. I
-                        improve my skills and master new technologies by reading literature and solving problems on
-                        Codewars, as well as improving my level of English.
-                        Ready to listen to your suggestions.</p>
+                    <h1>i'm  <u>Ivan Akhremchyk</u></h1>
+                    <h3>Front-end developer</h3>
+                    <p>Hello, I am a person who has a strong passion for
+                        programming.</p>
+                    <p>I have experience in creating SPA with React/Redux/TypeScript.</p>
+                    <p>
+                        Now I am improving my skills in
+                        this direction and expanding them with new technologies.
+                    </p>
+                    <p>Open to your suggestions.</p>
                 </div>
             </div>
         </div>

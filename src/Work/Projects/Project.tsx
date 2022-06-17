@@ -49,6 +49,7 @@ function Project(props: ProjectPropsType) {
                         lang={lang}
                         link={link}
                         img={img}
+                        setActive={setActive}
                     />
                 </Modal>
             }
