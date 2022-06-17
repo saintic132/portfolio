@@ -10,13 +10,11 @@ function Main() {
             id='main'
             className={style.main}>
             <div className={styledContainer.container}>
-                <div className={style.photo}>
-                    <img
-                        src={photo}
-                        alt="background"/>
-                </div>
+                <img
+                    src={photo}
+                    alt="background"/>
                 <div className={style.textBlock}>
-                    <h1>i'm  <u>Ivan Akhremchyk</u></h1>
+                    <h1>i'm <u>Ivan Akhremchyk</u></h1>
                     <h3>Front-end developer</h3>
                     <p>Hello, I am a person who has a strong passion for
                         programming.</p>

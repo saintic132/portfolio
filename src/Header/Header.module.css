@@ -28,11 +28,10 @@
     cursor: pointer;
 }
 
-@media (max-width: 874px) {
+@media (max-width: 847px) {
     .nav {
         all: unset;
         display: flex;
-        margin-bottom: 10px;
         height: 25px;
         justify-content: space-between;
         width: 100%;
