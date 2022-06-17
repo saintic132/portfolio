@@ -26,15 +26,15 @@ export const ModalWindowProject = ({projectName, clientName, lang, link, img, se
             <div className={style.windowModal__body}>
                 <div className={style.windowModal__info}>
                     <img src={clientImg} alt="projectimg"/>
-                    Client: {clientName}
+                    <u>Client</u>: {clientName}
                 </div>
                 <div className={style.windowModal__info}>
                     <img src={languageImg} alt="projectimg"/>
-                    Stack: {lang}
+                    <u>Stack</u>: {lang}
                 </div>
                 <div className={style.windowModal__info}>
                     <img src={linkImg} alt="projectimg"/>
-                    Preview:
+                    <u>Preview</u>:
                     <a
                         target='_blank'
                         rel="noreferrer"

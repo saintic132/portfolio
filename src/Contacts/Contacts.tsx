@@ -17,10 +17,11 @@ function Contacts() {
                 <div className={styledContainer.line}/>
                 <div className={style.contacts}>
                     <div className={style.contact__aboutMe}>
-                        <h2 style={{textTransform: 'uppercase', textAlign: 'center'}}>Don't be shy</h2>
-                        <p style={{textAlign: 'justify'}}>Feel free to get in touch with me. I am always open to
-                            discussing new projects, creative ideas or opportunities to be part of your visions. Open for your suggestions</p>
-                        <p className={style.logos}>
+                        <p style={{textAlign: 'justify'}}>Feel free to get in touch with me.</p>
+                        <p>I am always open to discussing new projects, creative ideas or opportunities to be part of
+                            your visions.</p>
+                        <p>Open for your suggestions</p>
+                        <div className={style.logos}>
                             <a
                                 href='mailto:saintic132@gmail.com'
                                 target='_blank'
@@ -34,7 +35,7 @@ function Contacts() {
                                 <a className={style.contact__mail}
                                    href="mailto:saintic132@gmail.com">saintic132@gmail.com</a>
                             </div>
-                        </p>
+                        </div>
                         <p className={style.linkLogo}>
                             <a
                                 href='https://www.linkedin.com/in/ivan-akhremchyk-9a4585222/'

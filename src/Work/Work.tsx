@@ -41,7 +41,7 @@ function Work() {
             id='works'
             className={style.worksBody}>
             <div className={`${styledContainer.container} ${style.container}`}>
-                <h2 className={style.title}>Works</h2>
+                <h2>Works</h2>
                 <div className={styledContainer.line}/>
                 <div className={style.works}>
                     <Project projects={projects}/>

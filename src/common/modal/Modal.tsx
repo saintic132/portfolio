@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Modal.module.css'
+import style from './Modal.module.scss'
 
 type PropsType = {
     active: boolean

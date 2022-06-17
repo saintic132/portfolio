@@ -9,6 +9,7 @@
 }
 
 .contacts {
+  max-width: 1100px;
   width: 100%;
   display: flex;
   @media (max-width: 767px) {
@@ -26,7 +27,7 @@
   p {
     font-size: 16px;
     font-weight: 600;
-    line-height: 35px;
+    line-height: 30px;
   }
 
   img {
@@ -98,6 +99,7 @@ input[type=text], input[type=text], textarea {
 }
 
 textarea {
+  margin-top: 20px;
   height: 160px;
   width: 100%
 }

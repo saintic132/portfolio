@@ -28,7 +28,7 @@ function Skills() {
         <div
             id='skills'
             className={`${styledContainer.container} ${style.container}`}>
-            <h2 className={style.title}>Skills</h2>
+            <h2>Skills</h2>
             <div className={styledContainer.line}/>
             <div className={style.skills}>
                 <Skill skill={skills}/>
