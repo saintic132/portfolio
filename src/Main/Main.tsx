@@ -23,7 +23,6 @@ function Main() {
                         Now I am improving my skills in
                         this direction and expanding them with new technologies.
                     </p>
-                    <p>Open to your suggestions.</p>
                 </div>
             </div>
         </div>
