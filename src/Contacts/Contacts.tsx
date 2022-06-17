@@ -1,6 +1,6 @@
 import React from 'react';
-import style from './Contacts.module.css'
-import styledContainer from "../common/css/Container.module.css";
+import style from './Contacts.module.scss'
+import styledContainer from "../common/css/Container.module.scss";
 import vkLogo from '../assets/img/social/vk.png'
 import githubLogo from '../assets/img/social/gh.png'
 import linkedIn from '../assets/img/social/linked.png'
@@ -76,7 +76,6 @@ function Contacts() {
                                     placeholder={'Your subject'}/>
                                 <textarea
                                     name="message" placeholder="YOUR MESSAGE">
-
                                 </textarea>
                                 <button type="submit" className="button">
                                     <span className="button-text">Send Message</span>

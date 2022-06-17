@@ -1,0 +1,22 @@
+.worksBody {
+  min-height: 75vh;
+}
+
+.container {
+  flex-direction: column;
+  justify-content: flex-start;
+  @media (max-width: 971px) {
+    justify-content: center;
+
+  }
+}
+
+.works {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  @media (max-width: 1545px) {
+    justify-content: space-around;
+
+  }
+}

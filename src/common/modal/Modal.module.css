@@ -30,8 +30,3 @@
 .modal__content.active {
     transform: scale(1);
 }
-
-.children {
-    display: flex;
-    flex-direction: column;
-}

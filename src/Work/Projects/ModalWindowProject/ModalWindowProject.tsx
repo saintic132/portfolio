@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './ModalWindowProject.module.css'
+import style from './ModalWindowProject.module.scss'
 import languageImg from '../../../assets/img/modal_window/tag.png'
 import clientImg from '../../../assets/img/modal_window/user.png'
 import linkImg from '../../../assets/img/modal_window/link.png'

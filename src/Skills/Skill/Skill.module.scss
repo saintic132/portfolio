@@ -1,0 +1,36 @@
+.skill {
+  flex: 0 1 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:nth-child(n+3) {
+    margin-top: 100px;
+    @media (max-width: 874px) {
+      margin-top: 0;
+    }
+  }
+
+  @media (max-width: 874px) {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex: 1 1 auto;
+    margin: 40px 0;
+  }
+  h3 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  span {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}

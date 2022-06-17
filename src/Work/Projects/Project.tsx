@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import style from './Project.module.css'
+import style from './Project.module.scss'
 import {Modal} from "../../common/modal/Modal";
 import {ModalWindowProject} from "./ModalWindowProject/ModalWindowProject";
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Skill.module.css'
+import style from './Skill.module.scss'
 
 type SkillType = {
     id: number
@@ -7,7 +7,6 @@ type SkillType = {
     description: string
     img: string
 }
-
 
 type SkillPropsType = {
     skill: SkillType[]

@@ -1,0 +1,125 @@
+.contactBody {
+  min-height: 75vh;
+  margin: 50px 0;
+}
+
+.container {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.contacts {
+  width: 100%;
+  display: flex;
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.contact__aboutMe {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 33.33%;
+  margin-right: 20px;
+
+  p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
+  }
+
+  img {
+    padding: 0 2px;
+    width: 50px;
+  }
+  @media (max-width: 767px) {
+    margin-right: 0;
+  }
+}
+
+.contactForm {
+  flex: 0 1 66.66%;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+.form {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @media (max-width: 767px) {
+    margin-top: 20px;
+  }
+}
+
+input[type=text], input[type=text], textarea {
+  border: 1px solid #111;
+  background: #252525;
+  color: #fff;
+  padding: 11px 26px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  outline: none !important;
+  transition: .3s;
+  box-sizing: border-box;
+
+  &:focus {
+    border: 1px solid #ffb400;
+  }
+
+  @media (max-width: 998px) {
+    width: 100%;
+  }
+}
+
+.logos {
+  display: flex;
+
+  div {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+.linkLogo {
+  img {
+    width: 30px;
+    height: 30px;
+  }
+
+  a {
+    margin: 0 12px;
+  }
+}
+
+textarea {
+  height: 160px;
+  width: 100%
+}
+
+.contact__mail {
+  color: #ffb400;
+
+  &:visited {
+    color: #ffb400;
+  }
+}
+
+button[type=submit] {
+  margin: 0 auto;
+  border-radius: 35px;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 16px 35px 16px 35px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+

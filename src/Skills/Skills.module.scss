@@ -1,0 +1,22 @@
+.container {
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.skills {
+  margin: 100px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+  @media (max-width: 874px) {
+    margin: 40px 0 100px 0;
+    width: 100%;
+    display: flex;
+  }
+}
+
+
+
