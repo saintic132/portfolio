@@ -1,6 +1,6 @@
 .contactBody {
   min-height: 75vh;
-  margin: 50px 0;
+  padding: 50px 0;
 }
 
 .container {
@@ -10,6 +10,7 @@
 
 .contacts {
   max-width: 1100px;
+  margin-top: 30px;
   width: 100%;
   display: flex;
   @media (max-width: 767px) {
@@ -34,6 +35,7 @@
     padding: 0 2px;
     width: 50px;
   }
+
   @media (max-width: 767px) {
     margin-right: 0;
   }
@@ -47,7 +49,7 @@
 }
 
 .form {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -77,6 +79,7 @@ input[type=text], input[type=text], textarea {
 }
 
 .logos {
+  margin-top: 20px;
   display: flex;
 
   div {
@@ -84,6 +87,14 @@ input[type=text], input[type=text], textarea {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+  }
+
+  a {
+    color: #ffb400;
+
+    &:visited {
+      color: #ffb400;
+    }
   }
 }
 
@@ -102,14 +113,6 @@ textarea {
   margin-top: 20px;
   height: 160px;
   width: 100%
-}
-
-.contact__mail {
-  color: #ffb400;
-
-  &:visited {
-    color: #ffb400;
-  }
 }
 
 button[type=submit] {

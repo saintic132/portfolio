@@ -32,8 +32,7 @@ function Contacts() {
                             </a>
                             <div>
                                 <span style={{textTransform: 'uppercase'}}>mail me</span>
-                                <a className={style.contact__mail}
-                                   href="mailto:saintic132@gmail.com">saintic132@gmail.com</a>
+                                <a href="mailto:saintic132@gmail.com">saintic132@gmail.com</a>
                             </div>
                         </div>
                         <p className={style.linkLogo}>
